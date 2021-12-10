@@ -1,4 +1,4 @@
-﻿using _SharedSources1.world;
+using _SharedSources1.world;
 using System;
 
 namespace ConsoleApp2
@@ -15,10 +15,6 @@ namespace ConsoleApp2
 		
 		void fun(){
 			 Console.WriteLine("Hello World!2  " );
-		}
-	    
-	    	void fun_world(){
-			 Console.WriteLine("Hello World!3  " );
 		}
     }
 }

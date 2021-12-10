@@ -9,6 +9,7 @@ namespace SimpleCSharp_Project
             Console.WriteLine("Hello World!");
 			 Console.WriteLine("from the sonarqube!");
 			  Console.WriteLine("PR analysis world");
+			  Console.WriteLine("example");
         }
     }
 }

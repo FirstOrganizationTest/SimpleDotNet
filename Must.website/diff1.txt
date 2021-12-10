@@ -1,0 +1,9 @@
+Microsoft (R) Build Engine version 16.8.3+39993bd9d for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1009: Project file does not exist.
+Switch: SimpleCSharp_Project.sln
+SonarScanner for MSBuild 5.2.1
+Using the .NET Core version of the Scanner for MSBuild
+Post-processing started.
+14:08:14.851  Generation of the sonar-properties file failed. Unable to complete the analysis.

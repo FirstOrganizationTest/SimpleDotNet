@@ -16,5 +16,9 @@ namespace ConsoleApp2
 		void fun(){
 			 Console.WriteLine("Hello World!2  " );
 		}
+	    
+	    	void fun_world(){
+			 Console.WriteLine("Hello World!3  " );
+		}
     }
 }

@@ -6,7 +6,7 @@ on:
       - feature1
   pull_request:
     types: [opened, synchronize, reopened]
-name: Main Workflow
+
 jobs:
   sonarqube:
     runs-on: ubuntu-latest

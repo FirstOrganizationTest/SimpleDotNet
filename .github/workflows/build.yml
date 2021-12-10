@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master # or the name of your main branch
-      -feature1
+      - feature1
   pull_request:
     types: [opened, synchronize, reopened]
 name: Main Workflow
@@ -22,4 +22,4 @@ jobs:
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}  
       with:
         args: >
-          -Dsonar.verbose=true       
+          -Dsonar.verbose=true

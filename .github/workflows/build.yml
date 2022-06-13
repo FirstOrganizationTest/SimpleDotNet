@@ -45,6 +45,6 @@ jobs:
           SONAR_SERVER_URL: "https://ru-sq89.ngrok.io/"
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"FirstOrganizationTest_SimpleDotNet" /d:sonar.login="${{ env.SONAR_TOKEN }}" /d:sonar.host.url="${{ env.SONAR_SERVER_URL }}" /d:sonar.verbose="true"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"FirstOrganizationTest_SimpleDotNet" /d:sonar.login="${{env.SONAR_TOKEN}}" /d:sonar.host.url="${{env.SONAR_SERVER_URL}}" /d:sonar.verbose="true"
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ env.SONAR_TOKEN }}"

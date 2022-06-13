@@ -42,7 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{secrets.SONAR_TOKEN}}
           sonar_home_path: ${{env.SONAR_USER_HOME}}
-          SONAR_SERVER_URL: "https://sonar.ncr.com"
+          SONAR_SERVER_URL: "https://ru-sq89.ngrok.io/"
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"FirstOrganizationTest_SimpleDotNet" /d:sonar.login="${{ env.SONAR_TOKEN }}" /d:sonar.host.url="${{ env.SONAR_SERVER_URL }}" /d:sonar.verbose="true"

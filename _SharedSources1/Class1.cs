@@ -8,6 +8,7 @@ public class Class1
 		 void foo()
         {
 			Console.WriteLine("Hello World! shared sources");
+			Console.WriteLine("Hello World! shared sources123456");
 		}
 	}
 }

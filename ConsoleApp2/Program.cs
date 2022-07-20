@@ -12,6 +12,7 @@ namespace ConsoleApp2
             Console.WriteLine("Hello World!2  "+y );
             Console.WriteLine("Hello World!3  "+y+2 );
 		int z = Class2.foo(5, 6);
+		int z1 = Class2.foo(5, 6);
         }
 		
 		void fun(){
